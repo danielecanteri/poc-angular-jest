@@ -26,7 +26,7 @@ And replace the way tests are run
 "test:watch": "jest --watch",
 ```
 
-Create file ``setupJest.ts``
+Create the file ``setupJest.ts``
 
 ```
 import 'jest-preset-angular';
