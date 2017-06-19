@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Http } from "@angular/http";
 
 @Component({
   selector: 'app-http',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./http.component.css']
 })
 export class HttpComponent implements OnInit {
+  film: any;
 
-  constructor() { }
+  constructor(
+    private http: Http
+  ) { }
 
   ngOnInit() {
+    this.http.get('http://swapi.co/api/films/1/').subscribe(
+      (response) => { this.film = response.json() }
+    );
   }
 
 }

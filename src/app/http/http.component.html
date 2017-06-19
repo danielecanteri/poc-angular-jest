@@ -1,3 +1,6 @@
-<p>
-  http works!
+<p *ngIf="!film">
+  loading
+</p>
+<p *ngIf="film">
+  {{film.title}}
 </p>

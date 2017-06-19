@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CounterComponent implements OnInit {
 
+  private counter: number = 0;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  inc() {
+    this.counter++;
   }
 
 }

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StaticComponent should be created 1`] = `
+<app-static>
+  <p>
+    static works!
+  </p>
+</app-static>
+`;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CounterComponent should increment the counter 1`] = `
+<app-counter
+  counter={[Function Number]}
+>
+  <div>
+    <b>
+      Counter
+    </b>
+    : 1 
+    <button>
+      +
+    </button>
+  </div>
+</app-counter>
+`;
+
+exports[`CounterComponent starts with 0 1`] = `
+<app-counter
+  counter="0"
+>
+  <div>
+    <b>
+      Counter
+    </b>
+    : 0 
+    <button>
+      +
+    </button>
+  </div>
+</app-counter>
+`;

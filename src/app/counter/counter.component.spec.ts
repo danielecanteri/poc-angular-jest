@@ -19,7 +19,13 @@ describe('CounterComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
-    expect(component).toBeTruthy();
+  it('starts with 0', () => {
+    expect(fixture).toMatchSnapshot();
+  });
+
+  it('should increment the counter', () => {
+    component.inc();
+    fixture.detectChanges();
+    expect(fixture).toMatchSnapshot();
   });
 });

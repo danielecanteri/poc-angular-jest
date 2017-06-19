@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HttpComponent should show when still loading 1`] = `
+<app-http
+  http={[Function Object]}
+>
+  <p>
+    loading
+  </p>
+</app-http>
+`;
+
+exports[`HttpComponent shows result 1`] = `
+<app-http
+  film={[Function Object]}
+  http={[Function Object]}
+>
+  <p>
+    A new Hope
+  </p>
+</app-http>
+`;
