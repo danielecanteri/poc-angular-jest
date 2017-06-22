@@ -33,8 +33,15 @@ import 'jest-preset-angular';
 ```
 
 Run your tests:
+
 ```
 npm run test
+```
+
+or run your tests in interactive mode:
+
+```
+npm run test:watch
 ```
 
 ## References
